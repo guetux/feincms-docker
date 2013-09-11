@@ -1,0 +1,16 @@
+*.pyc
+*~
+.*.swp
+\#*#
+.DS_Store
+._*
+.Python
+.idea
+dev.db
+/static
+/upload
+/build
+/dist
+/bin
+/venv
+.env

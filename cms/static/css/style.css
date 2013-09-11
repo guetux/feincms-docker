@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* sticky footer */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/* helper classes */
+
+.clear {
+    clear:both;
+}
+
+.left { float: left; }
+.right { float: right; }
+.small { font-size: 10px }
+
+.image.left {
+    margin: 0 10px 10px 28px;
+}
+
+.image.right {
+    margin: 0 28px 10px 10px;
+}
+
+
+/* main styles */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { margin: 0 0 9px }
+
+h1, h2, h3 {
+    color: black;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+
+/* content size */
+
+.wrapper {
+    position: relative;
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+    background:-moz-linear-gradient(top, #f0f0f0, #ffffff);
+    background:-webkit-linear-gradient(top, #f0f0f0, #ffffff);
+    background:linear-gradient(top, #f0f0f0, #ffffff);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #62AFD4;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 12px 10px 5px 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #757371;
+}
+
+header nav a.current {
+    color: #62AFD4;
+}
+
+
+/* maincontent */
+
+#maincontent {
+    padding: 20px 0 70px 0;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    color: #757470;
+
+    background: #f0f0f0;
+    background:-moz-linear-gradient(top, #f0f0f0, #ffffff);
+    background:-webkit-linear-gradient(top, #f0f0f0, #ffffff);
+    background:linear-gradient(top, #f0f0f0, #ffffff);
+
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #62AFD4;
+}
+
+footer nav a {
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    font-size: 16px;
+    color: #757371;
+}
+
+footer .language-links a {
+    font-size: 11px;
+    color: #757470;
+    padding: 5px;
+}
