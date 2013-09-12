@@ -8,7 +8,7 @@
 .idea
 dev.db
 /static
-/upload
+/media
 /build
 /dist
 /bin
